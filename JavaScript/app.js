@@ -13,6 +13,7 @@ document.getElementById("r").addEventListener("click",o2);
 document.getElementById("d").addEventListener("click",o3);
 document.getElementById("m").addEventListener("click",o4);
 
+
 function n1()
 {
   let actual = document.getElementById("resultado").innerHTML;
