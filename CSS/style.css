@@ -1,5 +1,6 @@
 *
 {
+    /*background-color: black;*/
     padding:0;
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,7 +10,7 @@
 {
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    background-color: rgb(2, 24, 12);
+    background-color: rgb(248, 220, 156);
     width: fit-content;
     margin: auto;
     margin-top: 50px;
@@ -18,6 +19,9 @@
 .pantalla
 {
     padding: 20px 20px 12px 20px;
+    -webkit-border-radius: 15px 1px 1px 1px;
+    border-radius: 15px 15px 1px 1px;
+    background-color: rgb(231, 109, 9);
 
 }
 
@@ -36,10 +40,10 @@
 .numeros button
 {
     -webkit-border-radius: 7px;
-    border-radius: 15px;
+    border-radius: 12px;
     margin:1px;
-    background-color: rgba(176, 228, 117, 0.856);
-    color:rgb(243, 247, 243);
+    background-color: rgba(186, 201, 170, 0.856);
+    color:rgb(19, 24, 19);
     font-size: 20px; 
     font-weight: bolder;   
     transition: all 0.09s;
@@ -49,7 +53,7 @@
 
 .numeros button:hover
 {
-    box-shadow: 0 0 13px rgba(176, 228, 117, 0.856);;
+    box-shadow: 0 0 13px rgba(31, 32, 30, 0.856);
 }
 
 .numeros
@@ -66,10 +70,10 @@
 .op button
 {
     -webkit-border-radius: 7px;
-    border-radius: 15px;
+    border-radius: 12px;
     display: block;
     margin: 2px;
-    background-color:rgb(235, 238, 72);
+    background-color:rgb(157, 158, 149);
     font-size: 20px;
     font-weight: bloder;
     width: 50px;
@@ -78,7 +82,7 @@
 
 .op button:hover
 {
-    box-shadow: 0 0 20px rgb(14, 97, 28);
+    box-shadow: 0 0 13px rgba(31, 32, 30, 0.856);
 }
 
 .sr
@@ -95,7 +99,7 @@
     width: 100%;
     font-size: 20px;
     font-weight: bolder;
-    background-color: rgba(255, 136, 0, 0.966);
+    background-color: rgb(231, 109, 9);
     color: #FFF
     
 }
