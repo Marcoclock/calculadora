@@ -85,13 +85,13 @@
     box-shadow: 0 0 13px rgba(31, 32, 30, 0.856);
 }
 
-.sr
+#sr
 {
     display: flex;
     padding: 0 20px 20px 20px;
 }
 
-.sr button
+#sr button
 {
     -webkit-border-radius: 7px;
     border-radius: 15px;
@@ -103,7 +103,7 @@
     color: #FFF
     
 }
-.sr button:hover
+#sr button:hover
 {
     box-shadow: 0 0 13px rgba(255, 136, 0, 0.966);
 }
