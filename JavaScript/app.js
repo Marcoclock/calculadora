@@ -8,10 +8,12 @@ document.getElementById("n7").addEventListener("click",n7);
 document.getElementById("n8").addEventListener("click",n8);
 document.getElementById("n9").addEventListener("click",n9);
 document.getElementById("n0").addEventListener("click",n0);
+
 document.getElementById("s").addEventListener("click",o1);
 document.getElementById("r").addEventListener("click",o2);
 document.getElementById("d").addEventListener("click",o3);
 document.getElementById("m").addEventListener("click",o4);
+
 document.getElementById("npto").addEventListener("click",npto);
 document.getElementById("nBorra").addEventListener("click",nBorra);
 document.getElementById("sr").addEventListener("click",showResult);
@@ -121,27 +123,28 @@ function showResult()
   let suma = actual.indexOf("+");
   let resta = actual.indexOf("-");
   let div = actual.indexOf("/");
-  let mult = actual.indexOf("*");
+  let mult = actual.indexOf("x");
 
   if(suma !== -1){
     arr = actual.split("+",2);
     res = parseInt(arr[0]) + parseInt(arr[1]);
     document.getElementById("resultado").innerHTML = res;
 
-  }else if (resta !== -1){
+  } else if (resta !== -1){
     arr = actual.split("-",2);
-    res = parseInt(arr[0]) - parseInt(arr[1]);
+    res = arr[0] - arr[1];
     document.getElementById("resulado").innerHTML = res;
 
-  }else if (div !== -1){
+  } else if (div !== -1){
     arr = actual.split("/",2);
-    res = parseInt(arr[0]) / parseInt(arr[1]);
+    res = arr[0] / arr[1];
     document.getElementById("resultado").innerHTML = res;
 
-  }else if (mult !== -1){
-    aarr = actual.split("*",2);
-    res = (arr[0]) * (arr[1]);
+  } else if (mult !== -1){
+    aarr = actual.split("x",2);
+    res = parseInt(arr[0]) * parseInt(arr[1]);
     document.getElementById("resultado").innerHTML = res;
+  
 
   }
 }
